@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:crimson;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+
+  .profile {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .profile h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .profile p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>My Portfolio</h1>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+  <section id="about" class="profile">
+    <img src="profile-pic.jpg" alt="Profile Picture">
+    <h1>About Me</h1>
+    <p>I'm Dinesh, a web developer based in XYZ. I love coding and creating beautiful websites.</p>
+  </section>
+
+  <section id="projects" class="profile">
+    <h1>Projects</h1>
+    <ul>
+      <li>Project 1: <a href="#">Link to project</a></li>
+      <li>Project 2: <a href="#">Link to project</a></li>
+      <li>Project 3: <a href="#">Link to project</a></li>
+    </ul>
+  </section>
+
+  <section id="contact" class="profile">
+    <h1>Contact Me</h1>
+    <p>Email: dinesh@example.com</p>
+    <p>Phone: 123-456-7890</p>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2024 My Portfolio</p>
+</footer>
+
+</body>
+</html>
